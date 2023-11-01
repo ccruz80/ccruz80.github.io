@@ -1,0 +1,94 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+
+header {
+    background: rgb(240,141,52);
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: sutro, serif;
+    font-weight: 550;
+    color: rgb(250, 250, 250);
+    padding: 1em .5em .3em;
+}
+
+h2 {
+    padding: 0em 1em .5em;
+    font-size: 1.5em;
+    font-family: sutro, serif;
+    color: rgb(249,214,191);
+}
+
+div.container {
+    max-width: 75em;
+    margin: auto;
+    background: rgb(250, 250, 250);
+
+}
+
+figure {
+    display: grid;
+    grid-template-columns: 60em 14em;
+    column-gap: 1em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 37em 37em;
+}
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;  
+}
+
+figcaption {
+   margin: 1em 1em 1em;
+   font-size: 1em;
+   font-family: poppins, sans-serif;   
+   font-style: italic;
+}
+
+h3 {
+    margin: 2em 1em .5em; 
+    padding-top: 1.5em;
+    font-size: 1.3em;
+    font-family: sutro, serif;
+    color: rgb(240,141,52);
+    text-transform: uppercase;
+    border-top: solid rgb(240,141,52);
+}
+
+body {
+    background: rgb(218,218,218);
+}
+
+
+ul {
+    margin: 1em 2em 2em;
+    font-family: poppins, sans-serif;
+    list-style-type: circle, solid;
+}
+
+ol {
+    margin: 1em 2em 3.5em;
+    font-family: poppins, sans-serif;
+    list-style-type: solid;
+}
+
+li {
+    margin: 1em 0em 1em
+}
+
+footer {
+font-family: poppins, sans-serif;
+color: rgb(250, 250, 250);
+padding: 1em 1em 1em;
+background: rgb(240,141,52)
+}
+
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
