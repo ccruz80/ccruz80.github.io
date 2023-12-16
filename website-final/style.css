@@ -1,0 +1,217 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+/* colors
+006d77 darkest blue
+a9dadc other blue
+83c5be lighter blue
+edf6f9 White blue
+ffddd2 light brown
+e29578 dark brown
+*/
+
+div.home-container { 
+	background: url(Cafe.jpg) center center fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+}
+
+div.container { 
+	position: relative;
+	min-height: 100vh;
+	background-color:#efefef;
+}
+
+/* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
+body {
+	font-family: sans-serif;
+	background-color: #718381f5 ;
+}
+
+main { 
+	padding: 2em 2em 4em;
+	}
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+
+}
+
+header {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	background: #006d77;
+	padding: 1em 1em 1em;
+	}
+
+h1 {
+	width: 20em;
+	margin-top: 1em;
+	}
+
+h2, h3, h4 {
+		margin: .5em 0em;
+		font-family: "brevia", sans-serif;
+	}
+
+h2 {
+	
+	font-size: 2.5em;
+	font-weight: 700;
+	}
+	
+h3 {
+	font-size: 1.5em;
+	font-weight: 600;
+	margin: 1.5em 0em 1em;
+}
+
+h4 {
+	font-weight: 600;
+	margin-bottom: 0em;
+}
+
+a {
+	text-decoration: none;
+	}
+	
+
+nav ul  {
+	text-align: right
+}
+
+ul li 	{
+	list-style-type: none;
+	font-family: "brevia" sans-serif;
+}
+
+figure {
+	margin-bottom: 2em;
+}
+
+main.menu {
+	padding: 0em 2em 4em;
+}
+
+main.menu ul {
+		margin: 1em 0em;
+}	
+
+main.menu ul li {
+		margin: 0em 0em 1em ;
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: 2.5em auto;
+}	
+
+p {
+	margin: .5em .5em .5em;
+	font-family: "brevia" sans-serif;
+	}
+	
+p.description {
+	grid-column: 1;
+	margin: 0em;
+	font-family: "brevia" sans-serif;
+	font-style: italic;
+	}
+	
+p.price {
+	grid-row: 1;
+	grid-column: 2;
+	color: #006d77;
+	text-align: right;
+	margin: .5em 0em ;
+	font-family: "brevia" sans-serif;
+	font-weight: 700;
+	}
+	
+nav ul li {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 1.2em;
+	}
+	
+nav ul li a {
+	color: #006d77;
+	background-color: #edf6f9;
+	border-radius: .5em;
+	padding: .4em ;
+	}
+	
+nav ul li.selected a {
+	color: #edf6f9;
+	background-color: #659a9c;
+	padding: .3em ;
+}
+
+article {
+	font-family: "brevia", sans-serif;
+	font-weight: 400;
+	max-width: 35em;
+	margin: auto;
+}
+
+article.contact {
+	text-align: center;
+
+}
+
+p.slogan {
+	font-size: 4em;
+	font-family: "brevia", sans-serif;
+	font-weight: 700;
+	margin: 1em 0em;
+	color: #f4ffff;	
+	}
+	
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem; 
+  box-sizing: border-box;
+  padding: .5em .5em;
+  color:#f4ffff;
+  background: #006d77;
+}
+
+address {
+	color: #f4ffff;	
+	font-family: "brevia", sans-serif;
+	font-weight: 600;
+	margin-bottom: .5em;
+	}
+
+footer p {
+	margin: .5em;
+	font-family: "brevia", sans-serif;
+	font-weight: 400;
+}
+
+@media screen and (min-width: 60em) {
+	main.menu ul{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 1.5em;
+		}
+	ul li {
+		list-style-type: none;
+		font-family: brevia, sans-serif;
+		display: inline;
+		margin: 1em 1em;
+	}
+	nav ul {
+		margin-top: 2em;
+		font-size: 1.5em;	
+	}
+	
+	div {
+		max-width: 60em;
+		margin: auto
+	}
+
+	
+}
