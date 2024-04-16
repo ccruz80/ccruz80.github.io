@@ -1,0 +1,88 @@
+/*CSS DOCUMENT*/
+
+body {
+	font-family: sans-serif;
+	line-height: 1.4em;
+	color: #222;
+	background-color: #fafafa;
+	box-sizing: border-box;
+	}
+	
+
+section.personal-info ul {
+	padding: 0em
+}
+
+section.personal-info ul li {
+	display: flex;	
+    flex-wrap: wrap;
+	margin: 1em;
+	list-style: none;
+}
+
+section.personal-info ul li label{
+	flex: 5 0 8em;
+}
+
+section.personal-info ul li input[type="text"],
+section ul li input[type="email"],
+section ul li input[type="tel"],
+section ul li select {
+	flex: 18 0 18em;
+	box-sizing: border-box;
+}
+
+section {
+    background: #eee;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+section.order ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0em;
+}
+
+section.order ul li {
+	flex: 1 0 15em;
+}
+
+section.order h3, p {
+	flex: 1 0 15em;
+}
+
+section.method ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0em;
+}
+
+section.method ul li {
+	flex: 1 0 15em
+}
+
+section p {
+	margin-top: 0;
+}
+
+
+textarea {
+	box-sizing: border-box;
+	display: flex;
+	width: 100%;
+	background: #fcfcfc;
+	border: 1px solid #e8e8e8;
+	padding: 0.4em;
+	font-family: sans-serif;
+	color: #777;
+	}
+@media screen {
+	div.container {
+        max-width: 40em;
+        margin: auto;
+        padding: 1em;
+}
+}
