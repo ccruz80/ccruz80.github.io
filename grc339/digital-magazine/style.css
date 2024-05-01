@@ -1,0 +1,106 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+h1 {
+    max-width: 5em;
+    margin: .5em;
+}
+
+a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+}
+
+li {
+    font-family: sans-serif;
+    margin-bottom: .5em;
+}
+
+li a {
+    color: rgb(100, 124, 161);   
+    font-weight: 700;
+}
+    
+ul {
+    list-style: none;
+}
+
+nav {
+    margin: 1em .5em;
+}
+
+p{
+    font-family: sans-serif;
+    margin: .5em .5em 1em;
+    line-height: 1.3em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(91, 119, 170);
+    margin: .3em;
+}
+
+section.mainstory h2 {
+    font-size: 3em;
+}
+
+figcaption {
+    color: rgb(101, 98, 98);
+    margin: .5em;
+}
+
+h3 {
+    font-weight: 700;
+    color: rgb(91, 119, 170);
+    margin: .5em;
+    border-top: solid .1em rgb(91, 119, 170);  
+    padding-top: .5em;
+}
+
+aside {
+    padding: .5em;
+   background-color: rgb(204, 208, 251);
+}
+
+footer {
+    padding: 1em;
+    background-color: rgb(108, 139, 159);
+    color: rgb(255, 254, 254);
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 40em) {
+   h1, li, h3, p, h2, figcaption {
+    margin-left: 0;
+    margin-right: 0;
+   }
+
+   nav ul li {
+    display: inline;
+    margin-right: 1em;
+   }
+
+   nav {
+    margin-left: 0;
+   }
+
+
+   footer {
+    padding: 1em 0em;
+    margin: auto;
+   }
+}
+
