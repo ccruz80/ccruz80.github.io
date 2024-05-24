@@ -13,22 +13,29 @@ div.container, div.home-container {
 }
 
 h1 {
-    max-width: 5em;
+    max-width: 25em;
     margin: .5em;
+    margin-top: 2em;
 }
 
 a {
     color: rgb(12, 12, 12);
     text-decoration: none;
+    font-family: "new-zen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 li {
-    font-family: sans-serif;
     margin-bottom: .5em;
 }
 
 li a {
-    color: rgb(100, 124, 161);   
+    color: rgb(148, 200, 162);  
+    font-size: 1.5em;
+    font-family: clone-rounded-latin, sans-serif;
+    font-weight: 800;
+    font-style: normal;   
     font-weight: 700;
 }
     
@@ -41,22 +48,29 @@ nav {
 }
 
 p{
-    font-family: sans-serif;
+    font-family: "gesta";
+    font-weight: 400;
+    font-style: normal;
     margin: .5em .5em 1em;
-    line-height: 1.3em;
+    line-height: 1.5em;
+
 }
 
 h2 {
     font-size: 1.5em;
     font-weight: 700;
-    color: rgb(91, 119, 170);
+    line-height: 1.3em;
+    font-family: "clone-rounded-latin", sans-serif;
+    font-weight: 700;
+    color: rgb(238, 154, 164);
     margin: .3em;
 }
 
 section.storylist h2{
-    font-size: 1em;
-    color: rgb(91, 119, 170);
-    border-top: solid .1em rgb(91, 119, 170);  
+    font-size: 1.3em;
+    font-weight: 700;
+    color: rgb(238, 154, 164);
+    border-top: solid .1em rgb(148, 200, 162);  
     padding-top: .5em;
 }
 
@@ -64,29 +78,39 @@ section.mainstory h2 {
     font-size: 3em;
 }
 
-figcaption {
-    color: rgb(101, 98, 98);
-    margin: .5em;
+article ul li {
+    font-family: "gesta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1em;
+    list-style: circle;
+    margin-left: .7em;
 }
 
-h3 {
-    font-weight: 700;
-    color: rgb(91, 119, 170);
+article p {
+    margin-top: 1.5em;
+}
+
+
+figcaption {
+    font-family: "gesta";
+    font-weight:400;
+    font-style: italic;
+    color: rgb(148, 200, 162);
     margin: .5em;
-    border-top: solid .1em rgb(91, 119, 170);  
-    padding-top: .5em;
 }
 
 aside {
 padding: .5em;
-   background-color: rgb(204, 208, 251);
+   background-color: rgb(245, 253, 247);
 }
 
 footer {
     padding: 1em;
-    background-color: rgb(108, 139, 159);
+    background-color: rgb(148, 200, 162);
     color: rgb(255, 254, 254);
-    font-family: sans-serif;
+    font-family: "clone-rounded-latin", sans-serif;
+    font-weight: 700;
     box-sizing: border-box;
 }
 
