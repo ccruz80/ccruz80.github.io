@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/* CSS Document */
+/*general formatting*/
+
+body {
+	font-family: "karmina-sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #070926;
+	line-height: 1.5em;
+	background-image: url("../images/background.jpg");
+}
+
+ul {
+	margin: 0;
+}
+
+
+li {
+	display: inline-block;
+	list-style: none;
+	max-width: 20%;
+	padding: 1em;
+	border-radius: .75em;
+	position: relative;
+	background-color: #6FA69C;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;	
+	color: #023535;
+}
+
+div {
+	display: none;
+}
+
+main {
+	max-width: 60em;
+	margin: 7em auto;
+}
+
+p {
+	margin: 2em 0em;
+}
+
+/*End general formatting*/
+
+/*for hover img page 2*/
+
+.containerOne {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 1em;
+}
+
+.img1, .img2 {
+	width: 100%;
+	border-radius: .75em;
+}
+
+.start {
+	display: none;
+}
+
+.end {
+	padding: 3em;
+	background-color: #3B5959;
+	border-radius: .75em;
+	color:#B4D9D5;
+}
+
+/*end img*/
+
+/*for figure*/
+.first {
+	min-width: 100%;
+	margin: auto;
+	
+	
+}
+
+.imgFirst {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+	border-radius: .75em;
+}
+
+
+
+/*end figure*/
+
+
+/*for article*/
+
+article{
+	max-width: 55em;
+	margin: 5em ;
+}
+/*end article*/
+
+
+/*for current tab selected*/
+
+.current {
+	background: #91C2AA;
+	display:inline-block;
+	margin-top: 0em;
+	border-radius: .75em;
+	padding: 1em;
+	
+}
+
+div.current {
+	min-width: 100%;
+
+}
+
+
+li.current {
+	padding: 1.5em;
+	border-radius: .75em .75em 0 0;
+}
+
+.first {
+	width: 30em;
+}
+
+/*end current tab selected*/
+
+/*for radio buttons page 3*/
+
+.size{
+	padding: 1em .8em;
+	background-color: #3B5959;
+	margin: 0;
+	color:#D3E0D6;
+	margin-right: 1em;
+	border-radius: .75em;
+
+}
+
+
+input[name="size"]{
+	margin-right: .9em;
+}
+
+#dryTime {
+	margin-top: 2em;
+	padding: .5em 2em;
+	background-color: #3B5959;
+	color: #D3E0D6;
+	font-size: 1em;
+}
+
+#output {
+	font-size: 2em;
+	font-weight: 700;
+	color: #D3E0D6;
+}
+/*end page 3*/
+
+
+
+
+/*Smaller screen size*/
+@media screen and (max-width: 40em) {
+	main {
+	max-width: 35em;
+	margin: 7em auto;
+}
+	
+	li {
+	max-width: 5%;
+	display: inline-block
+	
+}
+
+	div.current {
+		min-width: 50%;
+	}
+	
+	li a {
+		display: none;
+	}
+
+}
+
+
+
