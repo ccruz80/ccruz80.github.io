@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Final Project</title>
+<!--font-->
+<link href="css/style.css" rel="stylesheet" type="text/css">	
+</head>
+<body>
+	
+<main>
+	<nav>
+		<ul>
+			<li data-tab="tab1" class="current"><a href="#">Intro</a></li>
+			<li data-tab="tab2" ><a href="#">Cutting</a></li>
+			<li data-tab="tab3" ><a href="#">Drying</a></li>
+			<li data-tab="tab4" ><a href="#">Soil</a></li>
+			<li data-tab="tab5" ><a href="#">End</a></li>
+		</ul>
+	</nav>
+	
+	<div id="tab1" class="current">
+		<article class="page1">
+		<h2>Succulents and Propogation</h2>
+			
+		<section class="first">
+			<img src="images/succulent-2.jpg" alt="Three succulent pots on a table" class="imgFirst"></section>	
+			
+		<p> Propagation is the process of taking an existing part of a plant and creating a new one. For succulents this can be done in a few ways. But for this lesson the focus will be on creating new succulents from leaf cuttings.
+		</p>
+		</article>
+		
+	</div>
+	
+	<div id="tab2">
+		<article class="page2">
+		<h2>Leaf Cutting</h2>
+		<p> Using leaf cuttings is an easy way to propagate your succulents. However, since removing the leaves is the most important part of the process special care must be taken. The leaf must be removed cleanly and completely from the stem. </p>
+			
+		<p> Select a leaf that looks full and healthy and grasp the portion closest to the stem. With a side to side motion gently remove the leaf from the stem.  </p>
+			
+		<h3>Hover over the photo that best matches your cutting to learn how well it will propogate.</h3>
+	<section class="containerOne">		
+		
+	<img class="img1" src="images/good cutting.jpg" alt="placeholder">
+	<img class="img2" src="images/bad cutting.jpg" alt="placeholder">
+		
+	</section>	
+			<p id="ex1" class="start"> If your cutting looks like this image the clean break from the stem will make it suitible for propogating.Since there is minimal damage the root is more likely to grow from this leaf.</p>
+			
+			<p id="ex2" class="start"> If your cutting has damage or has been broken completly then the chances of this leaf propagating is low and collecting new cuttings is recommended. </p>
+	
+		</article>
+	
+	</div>
+	
+	<div id="tab3">
+		
+	<article class="page3">
+		<h2>Drying</h2>
+		<section class="first">
+		
+			<img src="images/cuttings2.jpg" alt="Three succulent pots on a table" class="imgFirst">
+	
+	</section>	
+		<p>The leaf cuttings then need to be dried over a period of time. This prevents the cutting from receiving too much moisture and rotting away when placed in wet soil. </p> 
+		<p>Cuttings are usually dried from 2 – 7 days depending on the plants size.</p>	
+			
+		<h4>Find the preferred drying time for you succulent</h4>
+		<p>Measuere the size of your succulent cutting and select the closest measurement for more information</p>
+		
+		
+				 
+		<label for="size1" class="size"><input type="radio" id="size1" name="size">Small (between 0 in. - 1 in.)</label>
+		
+		<label for="size2" class="size"> <input type="radio"  id="size2" name="size">Medium (between 1 in. - 3 in.)</label>
+		
+		<label for="size3" class="size"><input type="radio" id="size3" name="size">Big (3 in. or more)</label>
+		
+		<input type="button" value="Find dry time" id="dryTime">	
+		
+		<p id="output"></p>
+	
+	</article>
+		
+	</div>
+
+	<div id="tab4">
+	<article>
+	<h2>Soil</h2>
+	
+	<p>Once the cuttings are dry enough place them on top of well-draining cactus soil. The ends should rest lightly on top the soil. Place the succulent cuttings in a well-lit place indoors. </p>
+		
+	<section class="first">
+		
+			<img src="images/succulent tray.jpg" alt="Three succulent pots on a table" class="imgFirst">
+	
+	</section>	
+
+	<p>Observe the succulent cuttings over the next few weeks once the roots start to develop into plants water them once a week or when the soil is very dry. Using a spray bottle spray the ends of the cuttings.</p>
+	
+	<section class="first">
+			<img src="images/succulent-grown.jpg" alt="Three succulent pots on a table" class="imgFirst"></section>	
+
+	<p>You can remove the new plant from the leaf cutting once the cutting begins to wither and the new plant can stand on its own. Then place the new plant into its own pot. </p>
+		
+	<h4>Find the appropriate pot size for your succulent. Enter your and select your measurments.  </h4>
+			
+		
+	<input type="number" id="calc" class="converter">
+	
+	<label for="cm"><input type="radio" name="mes" id="cm">cm</label>
+	<label for="mm"><input type="radio" name="mes" id="mm">mm</label>
+	<label for="in"><input type="radio" name="mes" id="in">in</label>
+	<input type="button" value="Find dry time" id="convert">
+	<p id="results"><span id="answer"></span></p>
+
+	</article>
+		
+	</div>
+	
+	<div id="tab5">
+		
+	<article class="page4">
+		<h2>Conclusion</h2>
+	<p>With the knowledge presented in this lesson you will be able to grow multiple succulents from a singular plant. </p>
+
+	<h4>Some important things to remember.</h4>
+
+	<p>Remove the leaf cutting cleanly from stem to maximize potential</p>
+
+	<p>Dry out the leaf cutting before laying it in wet cactus soil </p>
+			
+			<section class="first">
+			<img src="images/succulent.jpg" alt="Three succulent pots on a table" class="imgFirst"></section>		
+		
+			
+	</article>
+		
+	</div>
+
+</main>	
+	
+</body>
+	<script src="js/jquery-3.7.1.min<sc.js"></script>
+	<script src="js/script.js"></script>
+</html>
